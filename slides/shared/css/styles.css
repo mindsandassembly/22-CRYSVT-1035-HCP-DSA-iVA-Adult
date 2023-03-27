@@ -111,7 +111,7 @@ button {
 }
 .two-dot2 { 
   right: -8px !important;
-  top: 52px !important;
+  top: 48.5px !important;
 }
 .dots53 { 
   margin-right: 15px;
@@ -199,7 +199,7 @@ ul, li {
 }
 .top-nav {
   float: right;
-  margin-top:22px;
+  margin-top:17px;
 }
 .top-nav ul {
   list-style: none;
@@ -248,14 +248,16 @@ div[id$="wrapper_text"] {
   height: 865px;
   background-color: #f6f6f6;
   background-image: url(../images/vector.png);
-  background-repeat: repeat-y;
+  background-repeat: no-repeat;
   background-position: 1022px;
   width: 1207px;
   margin: 0 auto;
-  position:relative;
+  position: relative;
+  background-size: contain;
 }
 .full-im {
   width:99.5%;
+  height:100%;
 }
 .char-ico { 
   width: 443px;
