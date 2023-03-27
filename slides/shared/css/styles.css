@@ -94,7 +94,7 @@ button {
 }
 .two-dots { 
   right: -98px !important;
-  top: 51px !important;
+  /* top: 51px !important; */
 }
 .dots3 { 
   margin-top: 2px;
