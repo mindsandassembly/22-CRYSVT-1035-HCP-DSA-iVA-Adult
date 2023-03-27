@@ -78,8 +78,10 @@ button {
   width:22%;
 }
 .h112 { 
-  width:41%;
+  width: 41%;
   margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 .prior {
   position: absolute;
@@ -243,7 +245,7 @@ div[id$="wrapper_text"] {
   margin-top: 25px;
 }
 .content {
-  height: 853px;
+  height: 865px;
   background-color: #f6f6f6;
   background-image: url(../images/vector.png);
   background-repeat: repeat-y;
@@ -291,7 +293,7 @@ div[id$="wrapper_text"] {
 }
 .bottom-cta { 
   width: 77%;
-  margin-top: 185px;
+  margin-top: 143px;
   margin-left: -209px;
 }
 .f-hd { 
