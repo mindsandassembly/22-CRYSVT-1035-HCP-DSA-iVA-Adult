@@ -345,7 +345,8 @@ footer {
   width: 1207px;
   margin: 0 auto;
   background-color: #FFFFFF;
-  border: 1.5px solid rgba(115, 123, 143, .5);
+  border-top: 1.5px solid rgba(115, 123, 143, .5);
+  border-bottom: 1.5px solid rgba(115, 123, 143, .5);
 }
 .bottom-nav {
   height: 100%;
