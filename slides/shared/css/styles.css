@@ -263,10 +263,25 @@ div[id$="wrapper_text"] {
   width:99.5%;
   height:100%;
 }
+.two-one-bg { 
+  background-image: url(../images/2-1-bg.png);
+  background-position: center;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-size: contain;
+}
+.two-one-mods {
+  width: 100%;
+  position: relative;
+  margin-top: 274px;
+  float: left;
+  margin-left: 54px;
+}
 .char-ico { 
   width: 443px;
   height: 368px;
-  margin-right: 16px;
+  margin-right: 42px;
 }
 .top-nav img {
   position: absolute;
