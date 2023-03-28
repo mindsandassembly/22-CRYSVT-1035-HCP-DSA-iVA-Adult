@@ -108,6 +108,7 @@ button {
 }
 .dots52 { 
   margin-right:15px;
+  margin-top:-1px;
 }
 .two-dot2 { 
   right: -8px !important;
@@ -120,9 +121,12 @@ button {
 .dots54 { 
   margin-right: 6px;
 }
+.mto { 
+  margin-top:0px;
+}
 .dots5 { 
   margin-right: -13px;
-  margin-top:.5px;
+  margin-top: -1.5px;
 }
 .ff-pag { 
   margin-top: -1px !important;
