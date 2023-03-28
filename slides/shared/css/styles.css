@@ -39,7 +39,7 @@ body {
 .modal-content {
   background-color: #fefefe;
   margin: auto;
-  padding: 20px;
+  /* padding: 20px; */
   border: 1px solid #888;
   width: 814px;
 }
@@ -48,6 +48,7 @@ body {
   float: right;
   font-size: 28px;
   font-weight: bold;
+  padding:13px;
 }
 .close:hover,
 .close:focus {
@@ -162,9 +163,9 @@ button {
   margin-top: -517px !important;
 }
 .s-pop { 
-  width: 90%;
-  margin-top: 20px;
-  padding-bottom: 40px;
+  width: 75%;
+  margin-top: 80px;
+  padding-bottom: 70px;
 }
 .pop5 { 
   width: 97%;
@@ -354,8 +355,9 @@ div[id$="wrapper_text"] {
   padding-bottom: 10px;
 }
 .t-chart { 
-  width: 89%;
-  margin-top: 47px;
+  width: 84%;
+  margin-top: 32px;
+  margin-bottom: 30px;
 }
 .top-img { 
   width:60%;
