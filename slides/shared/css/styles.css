@@ -446,6 +446,9 @@ footer {
   width:60%;
   float:right;
 }
+.oneohone { 
+  width:101% !important;
+}
 .fonepag { 
   margin-top: 2px;
 }
