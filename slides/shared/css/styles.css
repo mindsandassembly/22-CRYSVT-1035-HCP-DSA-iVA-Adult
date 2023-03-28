@@ -137,18 +137,20 @@ button {
   margin-right: 5px !important;
 }
 .tpop1 { 
-  width: 87%;
+  width: 79%;
+  margin-left: -50px;
 }
 .mod-ttt { 
   margin-left: 42px;
 }
 .tp-burden-im { 
-  width:80% !important;
+  width:77% !important;
+  margin-top: 50px !important;
 }
 .stdy-i-btn { 
   width: 47%;
   margin-left: -158px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .i-54 { 
   float: left;
@@ -282,6 +284,9 @@ div[id$="wrapper_text"] {
   width: 443px;
   height: 368px;
   margin-right: 42px;
+}
+.mn1 { 
+  margin-top:-1px;
 }
 .top-nav img {
   position: absolute;
