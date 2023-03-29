@@ -286,12 +286,6 @@ div[id$="wrapper_text"] {
   height: 368px;
   margin-right: 42px;
 }
-.mn1 { 
-  margin-top:-1px;
-}
-.mn2 { 
-  margin-top:-2px;
-}
 .top-nav img {
   position: absolute;
   right: -75px;
@@ -483,7 +477,12 @@ table.table-pdfs td, table.table-pdfs th {
 table.table-pdfs thead {
   background-color: none;
 }
-
 .svnpg { 
   margin-top: 15px;
+}
+.mn1 { 
+  margin-top:-1px;
+}
+.mn2 { 
+  margin-top:-2px;
 }
