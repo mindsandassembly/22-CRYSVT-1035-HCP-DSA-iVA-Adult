@@ -375,7 +375,7 @@ div[id$="wrapper_text"] {
 }
 footer {
   height: 90px;
-  width: 1207px;
+  width: 100%;
   margin: 0 auto;
   background-color: #FFFFFF;
   border-top: 1.5px solid rgba(115, 123, 143, .5);
@@ -397,6 +397,7 @@ footer {
 }
 .bottom-nav li.one { 
   width: 282px;
+  margin-right: 57px;
 }
 .bottom-nav li.one img { 
   margin-top: 20px;
@@ -447,7 +448,8 @@ footer {
   float:right;
 }
 .oneohone { 
-  width:101% !important;
+  width: 105% !important;
+  margin-left: -48px;
 }
 .fonepag { 
   margin-top: 2px;
