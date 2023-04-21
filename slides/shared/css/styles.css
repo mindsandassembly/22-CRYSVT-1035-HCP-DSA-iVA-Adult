@@ -8,14 +8,20 @@
   src: url("../fonts/GT-America-Condensed-Regular.otf") format("opentype");
   src: url("../fonts/GT-America-Condensed-Regular.ttf") format("truetype");
 } 
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
 header nav { 
   font-family:GT;
   font-size: 28px;
 }
-html, body {
-  height: 100%;
-}
 body {
+  display:flex;
   flex-direction: column;
   background-color: #f6f6f6;
 }
@@ -397,6 +403,7 @@ footer {
   background-color: #FFFFFF;
   border-top: 1.5px solid rgba(115, 123, 143, .5);
   border-bottom: 1.5px solid rgba(115, 123, 143, .5);
+  overflow:hidden;
 }
 .bottom-nav {
   height: 100%;
