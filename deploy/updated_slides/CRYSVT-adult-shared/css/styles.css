@@ -30,6 +30,9 @@ body {
   width:1366px;
   height:1024px;
 }
+.oflow { 
+  overflow-y:hidden;
+}
 .modal {
   display: none;
   position: fixed;
