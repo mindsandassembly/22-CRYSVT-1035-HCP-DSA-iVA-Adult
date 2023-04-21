@@ -383,8 +383,12 @@ div[id$="wrapper_text"] {
   width:70%;
 }
 .d-na {
-  width: 70%;
+  width: 80% !important;
   margin-top: 80px;
+  padding-bottom: 80px;
+}
+.fiv-pop-c { 
+  width:95% !important;
 }
 footer {
   height: 90px;

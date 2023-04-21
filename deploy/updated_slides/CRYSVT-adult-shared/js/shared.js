@@ -1,5 +1,10 @@
 window.addEventListener('load', function() {
 
+  if (document.documentElement.clientWidth < 1360) {
+      let metaTag = document.getElementsByTagName('meta');
+      metaTag.content = "width=device-width, initial-scale=.8";
+  } 
+
   var modals = document.querySelectorAll(".modal");
   var buttons = document.querySelectorAll(".modal-button");
   var closeButtons = document.querySelectorAll(".close");

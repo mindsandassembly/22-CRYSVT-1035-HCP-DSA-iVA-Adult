@@ -41,7 +41,7 @@ body {
   margin: auto;
   border: 1px solid #888;
   width: 814px;
-  height:514px;
+  /* height:514px; */
   position:relative;
 }
 .two-one-mods .modal-content { 
@@ -103,7 +103,7 @@ button {
   position: absolute;
   top: 332px;
   width: 25%;
-  right: 7%;
+  right: 4%;
 }
 .mod-6 { 
   margin-left:23px;
@@ -183,9 +183,8 @@ button {
   padding-bottom: 70px;
 }
 .pop5 { 
-  width: 85% !important;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  width: 100% !important;
+  padding: 20px;
 }
 .nxt {
   margin-left: 7%;
@@ -202,12 +201,13 @@ button {
   margin-left: 122px;
 }
 .e-top {
-  width: 70%;
+  width: 65%;
   margin-top: 40px;
   margin-left: 30px;
 }
 .f-pop { 
-  width:70%;
+  width: 64%;
+  margin-left: -100px;
 }
 .whatcauses {
   width: 69%;
@@ -269,7 +269,7 @@ div[id$="wrapper_text"] {
   margin-top: 25px;
 }
 .content {
-  height: 865px;
+  height: 864px;
   background-color: #f6f6f6;
   background-image: url(../images/vector.png);
   background-repeat: no-repeat;
@@ -370,9 +370,11 @@ div[id$="wrapper_text"] {
   padding-bottom: 10px;
 }
 .t-chart { 
-  width: 84%;
+  width: 93% !important;
   margin-top: 32px;
   margin-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .top-img { 
   width:60%;
