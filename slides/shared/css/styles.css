@@ -370,9 +370,11 @@ div[id$="wrapper_text"] {
   padding-bottom: 10px;
 }
 .t-chart { 
-  width: 84%;
+  width: 95% !important;
   margin-top: 32px;
   margin-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .top-img { 
   width:60%;
