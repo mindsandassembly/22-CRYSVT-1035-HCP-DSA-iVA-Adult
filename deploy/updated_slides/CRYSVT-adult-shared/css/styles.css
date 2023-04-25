@@ -30,9 +30,6 @@ body {
   width:1366px;
   height:1024px;
 }
-.oflow { 
-  overflow-y:hidden;
-}
 .modal {
   display: none;
   position: fixed;
@@ -300,6 +297,7 @@ div[id$="wrapper_text"] {
   position: relative;
   background-size: contain;
   height: 875px;
+  overflow:hidden;
 }
 .two-one-mods {
   width: 100%;
