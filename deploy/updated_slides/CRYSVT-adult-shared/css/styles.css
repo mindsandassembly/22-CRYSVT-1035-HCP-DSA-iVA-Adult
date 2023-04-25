@@ -47,7 +47,6 @@ body {
   margin: auto;
   border: 1px solid #888;
   width: 814px;
-  /* height:514px; */
   position:relative;
 }
 .two-one-mods .modal-content { 
@@ -64,6 +63,7 @@ body {
   padding: 13px;
   position: absolute;
   right: 0px;
+  z-index:+1;
 }
 .close:hover,
 .close:focus {
@@ -329,10 +329,25 @@ div[id$="wrapper_text"] {
   width: 100% !important;
   height:930px;
 }
+.modal-content-vid { 
+  width:100%;
+  background-color: #fefefe;
+  margin: auto;
+  border: 1px solid #888;
+  /* width: 814px; */
+  position:relative;
+}
 .video { 
   float: right;
   width: 65.5%;
   margin-right: 37px;
+  margin-top:-9px;
+}
+video {
+  object-fit: fill;
+}
+.modal-v { 
+  padding-top: 0px;
 }
 .emily { 
   position: absolute;
