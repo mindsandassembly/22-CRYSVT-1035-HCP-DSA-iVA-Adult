@@ -64,6 +64,10 @@ body {
   right: 0px;
   z-index:+1;
 }
+.close img { 
+  width:35px !important;
+  height:35px !important;
+}
 .close:hover,
 .close:focus {
   color: #000;
