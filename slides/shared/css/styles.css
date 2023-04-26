@@ -183,9 +183,6 @@ button {
   margin-left: -416px;
   width: 27%;
 }
-.pop54 { 
-  /* margin-top: -517px !important; */
-}
 .s-pop { 
   width: 80% !important;
   margin-top: 80px;
@@ -194,7 +191,7 @@ button {
 .pop5 { 
   width: 100% !important;
   padding: 20px;
-}
+} 
 .nxt {
   margin-left: 7%;
 }
