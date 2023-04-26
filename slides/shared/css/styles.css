@@ -435,7 +435,7 @@ footer {
   padding: 0;
 }
 .fivenine { 
-  width:59%;
+  width: 1140px;
 }
 .bottom-nav li {
   float: right;
@@ -445,9 +445,17 @@ footer {
   width: 282px;
   margin-right: 57px;
 }
+.hng-im { 
+  width: 1293px;
+  margin-left: -81px;
+  height: 864px;
+}
 .bottom-nav li.one img { 
   margin-top: 20px;
   margin-left: 22px;
+}
+.lrg-mod { 
+  padding-top:100px;
 }
 .bottom-nav a {
   display: block;
