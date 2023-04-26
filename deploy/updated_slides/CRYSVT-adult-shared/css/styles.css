@@ -345,9 +345,10 @@ div[id$="wrapper_text"] {
 }
 #vid { 
   width: 100%;
+  vertical-align:middle;
 }
 .modal-v { 
-  padding-top: 0px;
+  padding-top: 10%;
 }
 .emily { 
   position: absolute;
