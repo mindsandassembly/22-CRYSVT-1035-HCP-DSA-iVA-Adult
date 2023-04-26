@@ -11,7 +11,6 @@
 html, body {
   height: 100%;
 }
-
 body {
   display: flex;
   flex-direction: column;
@@ -64,6 +63,10 @@ body {
   position: absolute;
   right: 0px;
   z-index:+1;
+}
+.close img { 
+  width:35px !important;
+  height:35px !important;
 }
 .close:hover,
 .close:focus {
@@ -184,7 +187,7 @@ button {
   /* margin-top: -517px !important; */
 }
 .s-pop { 
-  width: 75%;
+  width: 80% !important;
   margin-top: 80px;
   padding-bottom: 70px;
 }
@@ -411,7 +414,9 @@ div[id$="wrapper_text"] {
   padding-bottom: 80px;
 }
 .fiv-pop-c { 
-  width:95% !important;
+  width: 89% !important;
+  padding-top: 10px;
+  padding-bottom: 50px;
 }
 footer {
   height: 90px;
@@ -431,6 +436,9 @@ footer {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+.fivenine { 
+  width:59%;
 }
 .bottom-nav li {
   float: right;
@@ -460,7 +468,7 @@ footer {
   /* width: 14% !important; */
 }
 .ttmod { 
-  margin-left:36px;
+  margin-left:26px;
 }
 .ttpag { 
   margin-top: 16px;
