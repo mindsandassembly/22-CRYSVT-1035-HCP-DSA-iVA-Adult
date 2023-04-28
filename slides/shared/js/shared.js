@@ -3,7 +3,7 @@ window.addEventListener('load', function() {
   if (document.documentElement.clientWidth < 1194) {
       let metaTag = document.getElementsByTagName('meta');
           metaTag.content = "width=device-width, initial-scale=.7";
-    }
+  }
   if (document.documentElement.clientWidth < 1360) {
       let metaTag = document.getElementsByTagName('meta');
         metaTag.content = "width=device-width, initial-scale=.8";
