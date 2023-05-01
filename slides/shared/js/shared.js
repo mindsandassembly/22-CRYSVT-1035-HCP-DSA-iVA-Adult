@@ -1,16 +1,16 @@
 window.addEventListener('load', function() {
-  // alert(document.documentElement.clientWidth);
 
   let metaTag = document.querySelector('meta[name="viewport"]');
   if (metaTag) {
-    alert(metaTag.getAttribute('content'));
     const clientWidth = document.documentElement.clientWidth;
-    if (clientWidth < 1195) {
-      metaTag.setAttribute('content', 'width=device-width, initial-scale=.7');
+    if (clientWidth <= 1194) {
+      metaTag.setAttribute('content', 'width=device-width, initial-scale=.8');
     } else if (clientWidth < 1360) {
       metaTag.setAttribute('content', 'width=device-width, initial-scale=.8');
     }
   }
+
+  alert(metaTag.getAttribute("content"));
 
   var modals = document.querySelectorAll(".modal");
   var buttons = document.querySelectorAll(".modal-button");
