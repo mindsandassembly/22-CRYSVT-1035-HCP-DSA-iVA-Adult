@@ -10,7 +10,7 @@ window.addEventListener('load', function() {
     }
   }
 
-  alert(metaTag.getAttribute("content"));
+  // alert(metaTag.getAttribute("content"));
 
   var modals = document.querySelectorAll(".modal");
   var buttons = document.querySelectorAll(".modal-button");
