@@ -1,12 +1,15 @@
 window.addEventListener('load', function() {
+  // alert(document.documentElement.clientWidth);
 
-  if (document.documentElement.clientWidth < 1194) {
-      let metaTag = document.getElementsByTagName('meta');
-          metaTag.content = "width=device-width, initial-scale=.7";
-  }
-  if (document.documentElement.clientWidth < 1360) {
-      let metaTag = document.getElementsByTagName('meta');
-        metaTag.content = "width=device-width, initial-scale=.8";
+  let metaTag = document.querySelector('meta[name="viewport"]');
+  if (metaTag) {
+    alert(metaTag.getAttribute('content'));
+    const clientWidth = document.documentElement.clientWidth;
+    if (clientWidth < 1195) {
+      metaTag.setAttribute('content', 'width=device-width, initial-scale=.7');
+    } else if (clientWidth < 1360) {
+      metaTag.setAttribute('content', 'width=device-width, initial-scale=.8');
+    }
   }
 
   var modals = document.querySelectorAll(".modal");
