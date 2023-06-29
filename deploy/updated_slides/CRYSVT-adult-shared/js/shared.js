@@ -1,5 +1,4 @@
 window.addEventListener('load', function() {
-  // alert(document.documentElement.clientWidth);
 
   let metaTag = document.querySelector('meta[name="viewport"]');
   if (metaTag) {
@@ -10,7 +9,8 @@ window.addEventListener('load', function() {
       metaTag.setAttribute('content', 'width=device-width, initial-scale=.8');
     }
   }
-  // alert(metaTag.getAttribute('content'));
+
+  // alert(metaTag.getAttribute("content"));
 
   var modals = document.querySelectorAll(".modal");
   var buttons = document.querySelectorAll(".modal-button");
