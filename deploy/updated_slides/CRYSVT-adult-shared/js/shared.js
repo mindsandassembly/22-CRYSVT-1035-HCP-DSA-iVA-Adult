@@ -4,11 +4,9 @@ window.addEventListener('load', function() {
   if (metaTag) {
     const clientWidth = document.documentElement.clientWidth;
     if (clientWidth <= 1194) {
-      metaTag.setAttribute('content', 'width=device-width, initial-scale=.8');
-      metaTag.setAttribute('content', 'user-scalable=no');
+      metaTag.setAttribute('content', 'width=device-width, initial-scale=.8, user-scalable=no');
     } else if (clientWidth < 1360) {
-      metaTag.setAttribute('content', 'width=device-width, initial-scale=.8');
-      metaTag.setAttribute('content', 'user-scalable=no');
+      metaTag.setAttribute('content', 'width=device-width, initial-scale=.8, user-scalable=no');
     }
   }
 
