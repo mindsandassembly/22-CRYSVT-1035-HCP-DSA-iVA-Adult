@@ -7,6 +7,8 @@ window.addEventListener('load', function() {
       metaTag.setAttribute('content', 'width=device-width, initial-scale=.8, user-scalable=no');
     } else if (clientWidth < 1360) {
       metaTag.setAttribute('content', 'width=device-width, initial-scale=.8, user-scalable=no');
+    } else { 
+      metaTag.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no');
     }
   }
 
