@@ -457,6 +457,9 @@ footer {
 .lrg-mod { 
   padding-top:100px;
 }
+.pop54 img { 
+  width: 53% !important;
+}
 .bottom-nav a {
   display: block;
   width: 200px;
