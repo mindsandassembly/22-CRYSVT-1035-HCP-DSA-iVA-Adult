@@ -1,6 +1,7 @@
 window.addEventListener('load', function() {
 
-  let metaTag = document.querySelector('meta[name="viewport"]');
+  let metaTag = document.querySelector("meta[name=viewport]");
+  console.log(metaTag);
   if (metaTag) {
     const clientWidth = document.documentElement.clientWidth;
     if (clientWidth <= 1194) {
